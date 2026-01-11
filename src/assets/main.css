@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0%;
+    padding-top: 7%;
+    background: rgb(24, 24, 58);
+}
+
+#navtop, #navbot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 7%;
+    margin: 0%;
+    z-index: 999;
+    position: fixed;
+    background: inherit;
+}
+
+#navtop {
+   top: 0;
+}
+
+#navbot {
+    top: 7%;
+    border: 0.1vw solid white;
+}
+
+#navtop > button, #navbot > button {
+    cursor: pointer;
+}
+
+#logo {
+    width: 9vw;
+}
+
+#donate {
+
+}
+
+#connect {
+    background: inherit;
+    color: white;
+    width: fit-content;
+    height: 2.5vw;
+    border-radius: 3vw / 2.2vw;
+    border: 0.21vw solid rgb(41, 196, 57);
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 1vw;
+}
+
+#provablyFairDiv {
+    gap: 0.25%;
+}
+
+#provablyFairDiv > p {
+    color: white;
+}
+
+#provablyFairDiv > img {
+    width: 3.5vw;
+    cursor: pointer;
+}
+
+#outerProvablyFairDiv {
+    width: 20vw;
+    height: 62.5vh;
+    border: 0.25vw solid white;
+    position: fixed;
+    top: 50%;
+    left: 50%;          
+    transform: translate(-50%, -50%);
+}
+
+#outerProvablyFairDiv > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 4%;
+}
+
+#outerProvablyFairDiv > button {
+    position: fixed;
+    top: 2.25%;
+    left: 87.5%;
+    color: gray;
+    font-weight: 900;
+    font-size: 1.15vw;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#provablyFairMainDiv > div {
+    width: 90%;
+    height: 8vh;
+    border: 0.15vw solid white;
+    margin: 5%;
+    padding-top: 2%;
+}
+
+#provablyFairMainDiv > div > p, #provablyFairMainDiv > div > div {
+    color: white;
+    margin: 0%;
+    font-size: 0.775vw;
+    font-family: "Prompt", sans-serif;
+}
+
+#regenerateBtn {
+    width: 1.2vw;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
