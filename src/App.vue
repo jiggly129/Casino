@@ -75,7 +75,6 @@ const connectStatus = ref('Connect')
   <header>     
     <nav id="navtop">
       <img src="@/assets/logo.png" id="logo">
-      <button id="donate">Donate</button>
       <button id="connect" button @click="connectWallet">{{ connectStatus }}</button>
     </nav>
     <nav id="navbot">
