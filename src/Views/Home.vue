@@ -1,5 +1,7 @@
 <script setup>
 import ProvablyFair from "@/Components/Provablyfair.vue"
+import Coinflip from "@/Components/Coinflip.vue"
+
 import { ref, onMounted, defineComponent, onUnmounted } from "vue"
 
 const provablyfairVisible = ref(false)
@@ -15,4 +17,6 @@ const provablyfairVisible = ref(false)
     <div v-if="provablyfairVisible === true">
         <ProvablyFair @closeProvablyFair="provablyfairVisible = false"/>
     </div>
+
+    <Coinflip />
 </template>
